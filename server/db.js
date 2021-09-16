@@ -150,7 +150,7 @@ const categories = [
         id: "1",
         image: "tiger",
         category: "cats",
-        slug: "cats"
+        slug: "cats",
     },
     {
         id: "2",
