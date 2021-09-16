@@ -12,8 +12,13 @@ const server = new ApolloServer({
     typeDefs,
     resolvers: {
         Query,
-        Category,
-        Animal
+        Animal,
+        Category
+    },
+    context: {
+        mainCards,
+        animals,
+        categories
     }
 });
 
