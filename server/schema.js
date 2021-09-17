@@ -47,6 +47,7 @@ const typeDefs = gql`
         onSale: Boolean
         category: String!
       ): Animal
+      removeAnimal(id: ID!): Boolean!
   }
 
 `;
