@@ -10,8 +10,8 @@ export default function Nav() {
             <div className="nav-container">
                 <h4 className="header">animazon<span>.com</span></h4>
                 <div className="nav-delivery-info-container">
-                    <p>Deliver to Laith</p>
-                    <h2>432 Park Avenue</h2>
+                    <p>Deliver to Kabir</p>
+                    <h2>Fulda, Hesse</h2>
                 </div>
                 <div className="nav-input-container">
                     <select>
@@ -19,11 +19,11 @@ export default function Nav() {
                     </select>
                     <input />
                     <button className="nav-btn">
-                        <img src={search}/>
+                        <img src={search} />
                     </button>
                 </div>
                 <div className="nav-delivery-info-container">
-                    <p>Hello, Laith</p>
+                    <p>Hello, Kabir</p>
                     <h2>Account & Lists</h2>
                 </div>
                 <div className="nav-delivery-info-container">
@@ -31,7 +31,7 @@ export default function Nav() {
                     <h2>& Orders</h2>
                 </div>
                 <div className="nav-cart-container">
-                    <img src={cart}/>
+                    <img src={cart} />
                     <h2>cart</h2>
                 </div>
             </div>

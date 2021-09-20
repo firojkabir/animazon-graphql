@@ -8,16 +8,16 @@ import { Link } from 'react-router-dom'
 function Card(props) {
     return (
         <Link to={`/product/${props.animal.slug}`} className="Card">
-            <img className="main-img" src={animal[props.animal.img]}/>
+            <img className="main-img" src={animal[props.animal.image]} alt="" />
             <h4>
                 {props.animal.title}
             </h4>
             <div className="card-start">
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
-                <img src={star}/>
+                <img src={star} />
+                <img src={star} />
+                <img src={star} />
+                <img src={star} />
+                <img src={star} />
             </div>
             <div className="card-price" >
                 <p>CAD $</p>
